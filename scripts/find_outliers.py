@@ -23,7 +23,6 @@ project_path = os.getcwd()
 dirs = [project_path + '\\result', \
         project_path + '\\result/fig',\
         project_path + '\\result\\fig\\mosaic']
-
 for d in dirs:
     if not os.path.exists(d):
         os.mkdir(d)
